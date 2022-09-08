@@ -1,0 +1,255 @@
+:root {
+    --lightorange: #FFC47E;
+    --darkorange: #D64D00;
+    --background: #F3F5FC;
+    --messagebackground: #FFFFFF;
+    --fonteInter: 'Inter', sans-serif;
+}
+
+body {
+    background-color: var(--background);
+    font-family: var(--fonteInter);
+}
+
+/* HEADER */
+header img {
+    margin: 10px 0 0 15px;
+    width: 10%;
+
+    cursor: pointer;
+}
+
+/* MAIN */
+
+main {
+    display: flex;
+    margin: 0.5em 0 0 12%;
+}
+
+textarea {
+    background-color:  var(--messagebackground);
+
+    width: 95%;
+    
+    border: none;
+    border-radius: 10px;
+
+    padding: 20px 0 0 20px;
+}
+
+/* INPUT */
+#code-input {
+    width: 50%;
+    margin-right: 5%;
+    height: 500px;
+
+    background-color: var(--background);
+    border-radius: 10px;
+}
+
+#input-message {
+    height: 70%;
+}
+
+#code-input textarea::placeholder {
+    font-size: 20px;
+    font-family: var(--fonteInter);
+    color: var(--darkorange);
+}
+
+#code-buttons {
+    margin: 2em auto;
+}
+
+#code-buttons #warning {
+    display: flex;
+    margin-top: 4px;
+    margin-bottom: 6px;
+}
+
+#code-buttons #warning p {
+    font-size: 12px;
+    color: #495057;
+    padding-left: 5px;
+}
+
+#code-buttons #warning img {
+    width: 2%;
+}
+
+button {
+    text-align: center;
+    width: 45%;
+
+    padding: 15px 0;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+
+    cursor: pointer;
+}
+
+button:first-child {
+    background-color: var(--darkorange);
+    color: #FFFFFF;
+}
+
+button:last-child {
+    margin-left: 25px;
+    background-color: var(--lightorange);
+    color: var(--darkorange);
+}
+
+
+/* OUTPUT */
+#code-output {
+    width: 35%;
+    height: 500px;
+
+    text-align: center;
+}
+
+#nocode {
+    background-image: url(./imgs/waiting_img.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+    background-position-y: 5%;
+}
+
+#nocode, #withcode {
+    background-color:  var(--messagebackground);
+    border-radius: 10px;
+    height: 475px;
+}
+
+.output-item {
+    padding-bottom: 15px;
+    position: relative;
+    top: 350px;
+}
+
+#nocode h3 {
+    font-size: 22px;
+    color: #343A40;
+    width: 80%;
+
+    margin: 0 auto;
+
+    font-weight: 700;
+}
+
+#nocode p {
+    font-size: 16px;
+    color: #495057;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#withcode textarea {
+    height: 350px;
+}
+
+#withcode button {
+    margin: 12% 0 3% 0;
+}
+
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    margin-top: 2em;
+}
+
+footer p {
+    font-size: 15px;
+}
+
+footer li {
+    display: inline-block;
+    margin-top: 0.5em;
+}
+  
+footer li img {
+    width: 20px;
+}
+
+/* RESPONSIVO */
+
+@media (max-width:670px) {
+    main {
+        flex-direction: column;
+    }
+
+    #logo {
+        width: 20%;
+        margin-bottom: 1em;
+    }
+
+    #code-input, #code-output {
+        width: auto;
+        margin-right: 2.5em;
+        height: 350px
+    }
+
+    #code-input textarea {
+        height: 60%;
+    }
+
+    #warning {
+        justify-content: center;
+    }
+
+    #code-buttons #warning p {
+        font-size: 10px;
+    }
+    
+    #code-buttons #warning img {
+        width: 3%;
+    }
+
+    #code-input button {
+        display: flex;
+        flex-direction: column;
+        margin: 0.5em auto;
+        width: 35%;
+        align-items: center;
+    }
+
+    #nocode {
+        background: none;
+
+        margin-top: 5em;
+    }
+
+    .output-item {
+        position: inherit;
+    }
+
+    #withcode {
+        margin-top: 5em;
+        height: 150px;
+    }
+    
+    #withcode textarea {
+        height: 150px;
+    } 
+
+    #withcode button {
+        margin: 5% 0 3% 0;
+        width: 35%;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+}
+
+@media (min-width:671px) and (max-width:923px) {
+    .output-item {
+        padding-bottom: 15px;
+        position: relative;
+        top: 300px;
+    }
+}

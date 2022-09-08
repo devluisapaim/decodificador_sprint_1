@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>.: Decodificador :.</title>
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header>
+        <div>
+            <img id="logo" src="./imgs/logo.svg" alt="" onclick="btnReset()">
+        </div>
+    </header>
+
+    <main>
+        <section id="code-input">
+            <textarea name="" id="input-message" placeholder="Digite sua mensagem aqui..." required></textarea>
+
+            <div id="code-buttons">
+                <div id="warning">
+                    <img src="./imgs/!_icon.svg" alt=""> <p>Apenas letras minúsculas e sem acento.</p>
+                </div>
+
+                <div>
+                    <button onclick="btnEncode()">Criptografar</button> <button onclick="btnDecode()">Descriptografar</button>    
+                </div>  
+            </div>
+        </section>
+
+        <section id="code-output">
+                <div id="nocode">
+                    <h3 class="output-item">Nenhuma mensagem encontrada</h3>
+                    <p class="output-item">Digite o texto que você deseja criptografar ou descriptografar.</p>
+                </div>
+                <div id="withcode" style="display:none" >
+                    <textarea name="" id="output-message"></textarea>
+                    <button onclick="btnCopy()">Copiar</button>
+                </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Luísa Cristina.</p>
+        <ul>
+            <li>
+                <a href="https://www.linkedin.com/feed/" target="_blank">
+                    <img src="./imgs/linkedin.png" alt="Ícone LinkedIn">
+                </a>
+            </li>
+            <li>
+                <a src="" href="https://github.com/luisacpaim" target="_blank">
+                    <img src="./imgs/github.png" alt="Ícone Github">
+                </a>
+            </li>
+            <li>                
+                <a href="mailto:luisac.paim@hotmail.com" target="_blank">
+                    <img src="./imgs/email.png" alt="Ícone E-mail">
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
