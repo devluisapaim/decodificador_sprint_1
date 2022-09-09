@@ -187,6 +187,10 @@ footer li img {
         margin-bottom: 1em;
     }
 
+    #code-output {
+        margin-top: 2.5em;
+    }
+
     #code-input, #code-output {
         width: auto;
         margin-right: 2.5em;
@@ -209,12 +213,16 @@ footer li img {
         width: 3%;
     }
 
-    #code-input button {
+    .buttons {
         display: flex;
         flex-direction: column;
-        margin: 0.5em auto;
-        width: 35%;
+        margin: 1em auto;
+        width: 80%;
         align-items: center;
+    }
+
+    .buttons button {
+        margin: 0.2em auto;
     }
 
     #nocode {
