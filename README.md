@@ -12,8 +12,8 @@
 
 ## 📁 Acesso ao projeto (clique na imagem): 
 <p align="center">
-<a href="htps://devluisapaim.github.io/decodificador_sprint_1/" target="_blank">
-<img src="/imgs/decodificador.png/" alt="Imagem da aplicação"> </a>
+<a href="https://devluisapaim.github.io/decodificador_sprint_1/" target="_blank">
+<img src="/imgs/decodificador.png/" alt="Imagem com link para aplicação"> </a>
 </p>
 
 ### :hammer: Funcionalidades do projeto
