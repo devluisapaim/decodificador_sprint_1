@@ -11,15 +11,20 @@
 </p>
 
 ### :hammer: Funcionalidades do projeto
-- `Funcionalidade 1`: Criptografar e descriptografar textos
-- `Funcionalidade 2`: Copiar a mensagem gerada através de botão dedicado
-- `Funcionalidade 3`: Resetar a aplicação ao clicar na logo
+- `Funcionalidade 1`: Criptografar e descriptografar textos;
+- `Funcionalidade 2`: Verifica texto na área de digitação e só funciona se houver;
+- `Funcionalidade 3`: Copiar a mensagem gerada através de botão dedicado;
+- `Funcionalidade 4`: Resetar a aplicação ao clicar na logo;
+- `Funcionalidade 5`: Página responsiva e adaptada para diversas telas.
 
 <p align="center">
 <img src="/imgs/decodificador.png/" alt="Imagem da aplicação">
 </p>
 
-<!-- ## 📁 Acesso ao projeto: (link hospedado) -->
+## 📁 Acesso ao projeto: 
+<p align="center">
+<a href="htps://devluisapaim.github.io/decodificador_sprint_1/" target="_blank">
+</p>
 
 ### 👩‍💻Técnicas e tecnologias utilizadas
 - `Lógica de programação`

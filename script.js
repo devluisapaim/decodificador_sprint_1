@@ -6,8 +6,10 @@ const outputTexto = document.querySelector("#output-message");
 
 function btnEncode() {
     const textoCriptografado = encodeMessage(inputTexto.value);
-    outputTexto.value = textoCriptografado;
-    showMessage();
+    if (textoCriptografado != "") {  //Não executa sem mensagem inserida
+        outputTexto.value = textoCriptografado;
+        showMessage();
+    }
 }
 
 function encodeMessage(mensagemCriptografar) {
@@ -42,9 +44,10 @@ function encodeMessage(mensagemCriptografar) {
 
 function btnDecode() {
     const textoDescriptografado = decodeMessage(inputTexto.value);
-    outputTexto.value = textoDescriptografado;
-    showMessage();
-    
+    if (textoDescriptografado != "") {  //Não executa sem mensagem inserida
+        outputTexto.value = textoDescriptografado;
+        showMessage();
+    }    
 }
 
 function decodeMessage(mensagemDescriptografar) {
