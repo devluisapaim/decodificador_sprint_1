@@ -1,20 +1,40 @@
-# Decodificador de Texto         
+
+
+## Projeto
+### `Decodificador de Texto`
+
+> ⚠️ Neste site, eu treino a aplicação dos conceitos fundamentais de JavaScript que aprendi durante a Trilha Iniciante em Programação do AluraOne.
+<br />
+<!-- 
+#### Resumo dos conteúdos aplicados
+* Funções;
+* 
+* Responsivo para celular e tablet. -->
+
+O site já está no ar e você pode acessar aqui: [Decodificador de Textos!](https://devluisapaim.github.io/decodificador_sprint_1/)
+<br />
 
 <p align="center">
-<img src="/imgs/logo.png/" alt="Logo da aplicação">
+    <img src="/imgs/decodificador.png/" alt="Imagem da aplicação">
 </p>
 
-### Aplicação que criptografa e descriptografa textos, permitindo a troca de mensagens secretas!
+<br />
 
-<p align="center">
-✅ Projeto concluído! ✅
-</p>
+# 🧠 Contexto
 
-## 📁 Acesso ao projeto (clique na imagem): 
-<p align="center">
-<a href="https://devluisapaim.github.io/decodificador_sprint_1/" target="_blank">
-<img src="/imgs/decodificador.png/" alt="Imagem com link para aplicação"> </a>
-</p>
+O objetivo era criar uma aplicação usando JavaScript, que permitisse codificar e decodificar mensagens a partir de códigos específicos.
+<br />
+
+
+### `Tecnologias usadas`
+
+| Ferramenta | Descrição |
+| --- | --- |
+| `HTML/CSS` | estruturação e estilização da aplicação|
+| `JavaScript` | interatividade e lógica da aplicação|
+| `Github` | Hospedagem do código fonte integrado com gerenciador de versionamento|
+| `Gitpages` | Hospedagem para a aplicação|
+<br />
 
 ### :hammer: Funcionalidades do projeto
 - `Funcionalidade 1`: Criptografar e descriptografar textos;
@@ -23,28 +43,13 @@
 - `Funcionalidade 4`: Resetar a aplicação ao clicar na logo;
 - `Funcionalidade 5`: Página responsiva e adaptada para diversas telas.
 
-### 👩‍💻Técnicas e tecnologias utilizadas
-- `Lógica de programação`
-- `HTML`
-- `CSS`
-- `JavaScript`
 
+_Foi incrível compartilhar essa jornada com você! Qualquer dúvida ou sugestão, chama no contatinho!_
 
+### Vamos nos conectar?
 
+- [linkedin](https://www.linkedin.com/in/luisacristinaferreira/)
+- [github](https://github.com/devluisapaim)
 
-
-
-<!-- #### 🤫  As "chaves" de criptografia utilizadas:
-- `A letra "e"` é convertida para "enter"
-- `A letra "i"` é convertida para "imes"
-- `A letra "a"` é convertida para "ai"
-- `A letra "o"` é convertida para "ober"
-- `A letra "u"` é convertida para "ufat" -->
-
-
-<!-- Aplicação que criptografa e descriptografa textos, permitindo a troca de mensagens secretas!
-
-Traduz apenas para mensagens em letras minúsculas e permite copiar a mensagem gerada através de botão específico.
-
-Vamos descobrir o segredo?
-Experimente e descubra qual é a mensagem secreta: ""enterssenter é ober menterufat primesmenterimesrober dentersaifimesober cobernclufatídober denter mufatimestobers. oberbrimesgaidai poberr cobernfenterrimesr mimesnhai aiplimescaiçãober!" -->
+<br />
+Feito com 💜 por Luísa Paim.
